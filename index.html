@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IA na Escola - Reflexões</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>🤖 IA na Escola</h1>
+      <ul>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#aplicacoes">Aplicações</a></li>
+        <li><a href="#reflexao">Reflexão</a></li>
+        <li><a href="#quiz">Quiz</a></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <h2>Técnicas Computacionais e Inteligência Artificial</h2>
+      <p>Refletindo sobre o impacto da IA no ambiente escolar</p>
+      <button id="btnSaibaMais">Saiba Mais</button>
+    </div>
+  </header>
+
+  <section id="sobre">
+    <h2>O que é Inteligência Artificial?</h2>
+    <p>IA é um ramo da computação que busca simular a inteligência humana em máquinas, permitindo que sistemas aprendam, raciocinem e tomem decisões.</p>
+  </section>
+
+  <section id="aplicacoes">
+    <h2>Aplicações na Escola</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>📚 Tutores Inteligentes</h3>
+        <p>Plataformas que personalizam o aprendizado conforme o ritmo do aluno.</p>
+      </div>
+      <div class="card">
+        <h3>✍️ Correção Automática</h3>
+        <p>Sistemas que auxiliam professores na avaliação de redações e exercícios.</p>
+      </div>
+      <div class="card">
+        <h3>🎯 Recomendação de Conteúdo</h3>
+        <p>Algoritmos que sugerem materiais adequados ao nível do estudante.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="reflexao">
+    <h2>Reflexões Críticas</h2>
+    <div class="reflexao-box">
+      <p>💭 <strong>Privacidade:</strong> Como os dados dos alunos são usados?</p>
+      <p>💭 <strong>Dependência:</strong> Estamos formando alunos autônomos ou dependentes da tecnologia?</p>
+      <p>💭 <strong>Desigualdade:</strong> Nem todas as escolas têm acesso às mesmas ferramentas.</p>
+    </div>
+  </section>
+
+  <section id="quiz">
+    <h2>Quiz Rápido</h2>
+    <p id="pergunta">Qual dessas é uma aplicação de IA na escola?</p>
+    <div id="opcoes">
+      <button onclick="verificar(1)">Correção automática de redações</button>
+      <button onclick="verificar(0)">Lousa de giz</button>
+      <button onclick="verificar(0)">Carteira escolar</button>
+    </div>
+    <p id="resultado"></p>
+  </section>
+
+  <footer>
+    <p>© 2025 - Projeto Educacional sobre IA nas Escolas</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
